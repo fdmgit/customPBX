@@ -136,7 +136,7 @@ ssh_hard () {
 server_env () {
 
     cd /root
-    wget https://raw.githubusercontent.com/fdmgit/asterisk/main/bashrc.ini
+    wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/bashrc.ini
     cp bashrc.ini /root/.bashrc
     cp bashrc.ini /etc/skel/.bashrc
     rm /root/bashrc.ini
@@ -236,16 +236,16 @@ inst_f2b () {
     apt install ./fail2ban_1.1.0-1.upstream1_all.deb -y 
     rm fail2ban_1.1.0-1.upstream1_all.deb
     cd /etc/fail2ban/jail.d
-    wget https://raw.githubusercontent.com/fdmgit/asterisk/main/ignoreip.local
-    wget https://raw.githubusercontent.com/fdmgit/asterisk/main/pts2.local
+    wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/ignoreip.local
+    wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/pts2.local
     systemctl restart fail2ban
     wait 20
 }
 
 inst_f2b_jails () {
     cd /etc/fail2ban/jail.d
-    wget https://raw.githubusercontent.com/fdmgit/asterisk/main/ignoreip.local
-    wget https://raw.githubusercontent.com/fdmgit/asterisk/main/pts2.local
+    wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/ignoreip.local
+    wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/pts2.local
 }
 
 inst_base () {
