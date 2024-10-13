@@ -181,7 +181,7 @@ closing_msg () {
 ######################################################
 
     cd /root
-    rm ast_fpbx_d12_v2.sh
+    #rm ast_fpbx_d12_v2.sh
     rm setup-repos.sh
 
     
