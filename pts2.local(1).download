@@ -1,0 +1,6 @@
+
+[ssh-iptables]
+enabled  = true
+port      = ssh,49153
+bantime   = 24h
+findtime  = 125m
