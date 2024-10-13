@@ -182,8 +182,9 @@ closing_msg () {
 
     cd /root
     #rm ast_fpbx_d12_v2.sh
+    rm inst_logo
     rm setup-repos.sh
-
+    rm fpbx17_installation.sh
     
     # Retrieve the IP address
     ip_address=$(hostname -I | awk '{print $1}')
