@@ -2,7 +2,7 @@
 # will be automatically include in the overall installation script
 
 inst_certbot
-inst_f2b_jails
+#inst_f2b_jails
 inst_locate
 cd /root
 #wget https://raw.githubusercontent.com/fdmgit/customPBX/refs/heads/main/inst_logo
