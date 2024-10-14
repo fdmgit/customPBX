@@ -20,8 +20,8 @@ rm end_inst.sh
 
 cd /root
 
-#rm full_fpbx17_inst.sh
+rm full_fpbx17_inst.sh
 
-#reboot
+reboot
 
 
