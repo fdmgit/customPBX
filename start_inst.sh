@@ -142,7 +142,7 @@ server_env () {
     rm /root/bashrc.ini
     . .bashrc
     apt install curl sudo -y
-    echo 'set mouse > /root/.nanorc
+    echo 'set mouse' > /root/.nanorc
 
     ###################################
     #### Setup root key file
